@@ -1,0 +1,301 @@
+order_id,customer_id,region,category,product,sales,quantity,discount,profit,payment_method,rating,is_returned,date
+1,1037,South,Furniture,Chair,141.0,2,5.0,133.95,Cash,4.0,False,2023-09-28
+2,1024,North,Furniture,Sofa,217.0,1,10.0,195.3,Card,4.0,True,2023-08-17
+3,1047,South,Electronics,Phone,452.0,6,,,Card,1.0,True,2023-09-22
+4,1078,East,Clothing,Shirt,210.0,7,15.0,178.5,Card,3.0,False,2023-12-15
+5,1064,West,Clothing,Jacket,252.0,10,15.0,214.2,UPI,2.0,False,2023-06-13
+6,1083,West,Electronics,Laptop,473.0,10,0.0,473.0,UPI,5.0,False,2023-08-08
+7,1053,East,Electronics,Phone,228.0,3,,,Net Banking,2.0,True,2023-11-01
+8,1025,West,Electronics,Phone,213.0,9,10.0,191.7,UPI,4.0,True,2023-11-07
+9,1054,East,Furniture,Sofa,484.0,5,15.0,411.4,Cash,5.0,False,2023-02-15
+10,1071,North,Clothing,Shirt,291.0,1,10.0,261.9,Card,5.0,True,2023-11-19
+11,1088,North,Clothing,Jacket,169.0,10,,,Cash,4.0,True,2023-12-28
+12,1015,South,Clothing,Jacket,,9,0.0,,Cash,,True,2023-07-27
+13,1060,North,Electronics,Phone,268.0,9,10.0,241.2,Card,2.0,False,2023-05-23
+14,1037,South,Clothing,Jeans,98.0,8,15.0,83.3,Card,5.0,False,2023-05-12
+15,1042,West,Electronics,Tablet,379.0,8,0.0,379.0,UPI,3.0,False,2023-07-18
+16,1041,East,Electronics,Tablet,178.0,8,,,UPI,,True,2023-06-06
+17,1045,East,Electronics,Tablet,396.0,6,5.0,376.2,UPI,1.0,True,2023-06-10
+18,1004,South,Electronics,Phone,310.0,2,15.0,263.5,Card,2.0,False,2023-07-20
+19,1051,South,Furniture,Chair,298.0,1,0.0,298.0,UPI,5.0,True,2023-10-16
+20,1027,West,Electronics,Phone,223.0,9,5.0,211.85,UPI,3.0,True,2023-06-24
+21,1032,West,Furniture,Chair,,8,,,Net Banking,1.0,True,2023-06-16
+22,1032,West,Clothing,Shirt,279.0,3,0.0,279.0,Net Banking,2.0,True,2023-05-19
+23,1002,West,Electronics,Laptop,308.0,9,5.0,292.6,Net Banking,3.0,True,2023-05-03
+24,1084,East,Electronics,Tablet,457.0,10,5.0,434.15,Net Banking,2.0,False,2023-01-06
+25,1068,South,Furniture,Sofa,481.0,10,5.0,456.95,UPI,4.0,False,2023-10-01
+26,1081,East,Electronics,Laptop,184.0,9,5.0,174.8,Cash,2.0,False,2023-07-11
+27,1050,West,Furniture,Sofa,,4,5.0,,Card,5.0,False,2023-05-25
+28,1056,East,Clothing,Shirt,66.0,9,,,Card,3.0,True,2023-06-16
+29,1073,South,Clothing,Jacket,158.0,7,10.0,142.2,Cash,1.0,False,2023-01-15
+30,1076,East,Electronics,Tablet,459.0,2,0.0,459.0,Card,5.0,False,2023-03-16
+31,1010,South,Clothing,Jacket,299.0,9,,,Cash,1.0,True,2023-09-15
+32,1099,North,Furniture,Chair,151.0,3,10.0,135.9,Cash,2.0,True,2023-02-18
+33,1100,South,Clothing,Jeans,279.0,10,5.0,265.05,Net Banking,,True,2023-09-16
+34,1051,North,Electronics,Laptop,,9,10.0,,UPI,1.0,False,2024-01-01
+35,1014,West,Furniture,Chair,445.0,4,5.0,422.75,UPI,2.0,True,2023-05-01
+36,1003,North,Clothing,Shirt,85.0,2,15.0,72.25,Card,4.0,False,2023-04-20
+37,1041,East,Clothing,Jeans,,5,10.0,,Net Banking,2.0,False,2023-12-12
+38,1091,West,Furniture,Sofa,426.0,1,15.0,362.1,Net Banking,1.0,True,2023-09-15
+39,1032,East,Electronics,Laptop,258.0,6,0.0,258.0,Net Banking,1.0,True,2023-01-09
+40,1092,South,Clothing,Shirt,165.0,10,5.0,156.75,Net Banking,3.0,True,2023-06-11
+41,1054,West,Furniture,Chair,455.0,10,15.0,386.75,Card,,False,2023-04-26
+42,1088,East,Clothing,Jeans,65.0,7,0.0,65.0,Net Banking,3.0,True,2023-07-11
+43,1097,North,Electronics,Tablet,213.0,1,15.0,181.05,UPI,2.0,False,2023-11-26
+44,1094,West,Furniture,Table,269.0,9,,,Cash,3.0,True,2023-11-27
+45,1057,East,Clothing,Jeans,229.0,6,10.0,206.1,Card,4.0,False,2023-09-20
+46,1062,North,Clothing,Jeans,120.0,6,10.0,108.0,Net Banking,3.0,True,2023-12-23
+47,1028,West,Clothing,Shirt,208.0,5,10.0,187.2,Net Banking,2.0,True,2023-04-06
+48,1068,South,Furniture,Sofa,393.0,4,10.0,353.7,Card,3.0,False,2023-08-27
+49,1087,West,Clothing,Jacket,248.0,8,5.0,235.6,Cash,4.0,True,2023-05-10
+50,1065,North,Furniture,Chair,340.0,4,0.0,340.0,Card,3.0,True,2023-09-24
+51,1091,West,Electronics,Phone,123.0,9,10.0,110.7,Cash,1.0,True,2023-09-02
+52,1087,West,Electronics,Tablet,195.0,7,10.0,175.5,Cash,3.0,False,2023-06-01
+53,1007,North,Clothing,Jacket,449.0,8,15.0,381.65,Net Banking,3.0,True,2023-04-21
+54,1041,North,Electronics,Phone,163.0,2,15.0,138.55,UPI,4.0,False,2023-10-02
+55,1039,East,Clothing,Jeans,488.0,9,15.0,414.8,Card,3.0,True,2023-05-28
+56,1002,North,Clothing,Shirt,245.0,8,0.0,245.0,Card,2.0,False,2023-03-02
+57,1084,South,Furniture,Chair,463.0,2,,,UPI,,False,2023-05-27
+58,1004,South,Clothing,Jacket,160.0,1,15.0,136.0,Card,,False,2023-06-04
+59,1027,North,Furniture,Chair,232.0,9,15.0,197.2,Card,3.0,False,2023-05-15
+60,1063,West,Electronics,Tablet,220.0,3,15.0,187.0,Card,,True,2023-08-22
+61,1023,West,Electronics,Laptop,384.0,8,5.0,364.8,Net Banking,,True,2023-09-14
+62,1064,West,Furniture,Table,371.0,6,0.0,371.0,Net Banking,4.0,False,2023-01-04
+63,1016,West,Clothing,Shirt,256.0,1,10.0,230.4,Net Banking,5.0,True,2023-12-17
+64,1038,North,Electronics,Laptop,413.0,9,5.0,392.35,Net Banking,1.0,False,2023-10-17
+65,1079,South,Furniture,Chair,252.0,9,10.0,226.8,Cash,5.0,False,2023-05-29
+66,1019,West,Clothing,Jeans,337.0,3,0.0,337.0,UPI,,False,2023-06-28
+67,1069,North,Clothing,Shirt,301.0,7,15.0,255.85,Card,5.0,True,2023-04-05
+68,1039,East,Electronics,Laptop,279.0,8,10.0,251.1,Cash,5.0,False,2023-08-15
+69,1046,East,Clothing,Shirt,275.0,7,5.0,261.25,UPI,5.0,True,2023-06-01
+70,1004,North,Furniture,Sofa,192.0,2,,,UPI,3.0,True,2023-11-22
+71,1009,East,Electronics,Tablet,443.0,3,15.0,376.55,Net Banking,5.0,False,2023-07-11
+72,1013,East,Furniture,Sofa,263.0,3,,,Cash,4.0,False,2023-06-01
+73,1080,South,Electronics,Phone,226.0,8,5.0,214.7,Card,4.0,False,2023-12-22
+74,1016,South,Furniture,Table,399.0,4,15.0,339.15,UPI,3.0,False,2023-11-12
+75,1013,North,Furniture,Table,168.0,10,,,UPI,5.0,True,2023-10-22
+76,1028,North,Furniture,Chair,,1,15.0,,Cash,,False,2023-04-30
+77,1077,West,Clothing,Jacket,155.0,3,15.0,131.75,Card,,True,2023-08-29
+78,1099,East,Furniture,Sofa,309.0,9,0.0,309.0,UPI,5.0,False,2023-10-17
+79,1053,West,Clothing,Shirt,62.0,5,,,UPI,5.0,False,2023-09-03
+80,1032,East,Clothing,Jacket,454.0,9,10.0,408.6,UPI,1.0,True,2023-06-03
+81,1049,South,Furniture,Table,179.0,4,10.0,161.1,Cash,5.0,True,2023-08-31
+82,1056,East,Furniture,Chair,206.0,1,5.0,195.7,UPI,1.0,True,2023-09-18
+83,1058,East,Furniture,Table,244.0,8,,,UPI,2.0,False,2023-03-26
+84,1061,South,Furniture,Table,460.0,2,15.0,391.0,Card,,True,2023-10-05
+85,1033,North,Electronics,Laptop,59.0,9,10.0,53.1,Net Banking,,True,2023-08-28
+86,1026,South,Clothing,Jacket,125.0,2,10.0,112.5,Net Banking,2.0,False,2023-06-23
+87,1077,West,Electronics,Tablet,,9,15.0,,Net Banking,4.0,False,2023-05-26
+88,1058,South,Electronics,Phone,432.0,10,10.0,388.8,UPI,1.0,True,2023-01-15
+89,1096,East,Clothing,Shirt,77.0,6,,,Card,2.0,True,2023-03-09
+90,1074,West,Clothing,Shirt,403.0,1,,,UPI,,True,2023-04-16
+91,1043,South,Furniture,Chair,85.0,7,0.0,85.0,Cash,5.0,False,2023-09-17
+92,1006,North,Furniture,Sofa,341.0,6,15.0,289.85,Cash,4.0,False,2023-03-19
+93,1079,South,Clothing,Jeans,260.0,10,10.0,234.0,UPI,3.0,True,2023-04-15
+94,1046,South,Clothing,Jeans,126.0,4,5.0,119.7,Net Banking,,False,2023-08-03
+95,1028,North,Clothing,Shirt,289.0,2,15.0,245.65,Net Banking,3.0,True,2023-05-15
+96,1004,East,Clothing,Shirt,219.0,10,15.0,186.15,Card,3.0,True,2023-11-14
+97,1011,North,Clothing,Jeans,,6,15.0,,Net Banking,2.0,True,2023-05-04
+98,1013,West,Electronics,Laptop,209.0,3,,,Cash,,False,2023-01-14
+99,1017,West,Electronics,Tablet,335.0,1,10.0,301.5,UPI,,False,2023-04-14
+100,1007,East,Clothing,Shirt,291.0,5,15.0,247.35,UPI,,True,2023-05-15
+101,1050,South,Furniture,Chair,462.0,8,,,Card,1.0,True,2023-04-22
+102,1016,North,Clothing,Shirt,389.0,9,15.0,330.65,Cash,3.0,False,2023-03-14
+103,1079,North,Clothing,Jacket,252.0,4,10.0,226.8,UPI,4.0,False,2023-12-03
+104,1061,East,Clothing,Shirt,270.0,8,,,Cash,1.0,True,2023-12-25
+105,1050,South,Clothing,Shirt,55.0,2,,,Card,5.0,True,2023-02-21
+106,1006,North,Furniture,Table,,1,15.0,,Card,1.0,True,2023-08-30
+107,1016,West,Electronics,Tablet,449.0,2,10.0,404.1,Cash,5.0,True,2023-06-29
+108,1045,South,Clothing,Shirt,131.0,5,15.0,111.35,Card,1.0,True,2023-07-13
+109,1053,West,Electronics,Laptop,422.0,8,,,Card,,False,2023-08-19
+110,1096,West,Electronics,Tablet,,9,0.0,,Card,2.0,False,2023-01-18
+111,1097,South,Clothing,Jacket,,6,10.0,,Net Banking,1.0,False,2023-09-04
+112,1046,South,Clothing,Shirt,418.0,10,15.0,355.3,Card,1.0,True,2023-09-26
+113,1068,North,Furniture,Sofa,468.0,6,0.0,468.0,Cash,1.0,False,2023-02-06
+114,1011,South,Clothing,Jacket,300.0,4,10.0,270.0,Cash,3.0,False,2023-11-15
+115,1041,West,Furniture,Chair,99.0,4,10.0,89.1,UPI,4.0,False,2023-02-08
+116,1061,North,Electronics,Laptop,77.0,8,5.0,73.15,Cash,,True,2023-06-29
+117,1038,West,Furniture,Table,436.0,4,0.0,436.0,Cash,2.0,True,2023-08-26
+118,1069,West,Furniture,Sofa,,6,,,Card,2.0,True,2023-11-03
+119,1011,West,Clothing,Shirt,270.0,8,15.0,229.5,Cash,1.0,False,2023-04-12
+120,1001,East,Furniture,Chair,181.0,8,10.0,162.9,Net Banking,4.0,True,2023-04-29
+121,1073,South,Furniture,Sofa,433.0,10,,,UPI,4.0,False,2023-12-23
+122,1004,East,Electronics,Laptop,325.0,3,0.0,325.0,Cash,4.0,True,2023-03-02
+123,1071,East,Furniture,Chair,442.0,7,,,Cash,4.0,False,2023-03-20
+124,1010,North,Clothing,Jeans,212.0,5,15.0,180.2,UPI,2.0,False,2023-10-31
+125,1055,North,Electronics,Laptop,291.0,2,15.0,247.35,Cash,2.0,True,2023-11-07
+126,1029,East,Electronics,Phone,135.0,9,15.0,114.75,UPI,1.0,False,2023-02-20
+127,1051,North,Clothing,Jeans,250.0,6,5.0,237.5,Net Banking,2.0,True,2023-01-12
+128,1080,South,Furniture,Table,390.0,2,5.0,370.5,Card,5.0,True,2023-05-01
+129,1067,South,Clothing,Shirt,132.0,9,0.0,132.0,Card,,True,2023-02-17
+130,1044,North,Clothing,Jeans,69.0,6,10.0,62.1,Net Banking,5.0,False,2023-09-13
+131,1011,South,Clothing,Jeans,291.0,9,0.0,291.0,UPI,5.0,True,2023-10-12
+132,1082,South,Furniture,Chair,,3,0.0,,Card,2.0,False,2023-05-02
+133,1070,West,Furniture,Chair,72.0,10,10.0,64.8,Cash,3.0,False,2023-04-09
+134,1099,South,Electronics,Tablet,367.0,3,10.0,330.3,Net Banking,3.0,False,2023-04-19
+135,1064,North,Clothing,Jeans,145.0,7,,,Card,1.0,False,2023-12-07
+136,1000,South,Clothing,Jeans,65.0,2,,,Cash,4.0,True,2023-12-15
+137,1031,West,Clothing,Shirt,484.0,3,10.0,435.6,Cash,,False,2023-09-01
+138,1043,North,Clothing,Shirt,,5,0.0,,Cash,1.0,True,2023-05-02
+139,1031,East,Clothing,Shirt,337.0,9,10.0,303.3,Net Banking,1.0,True,2023-12-26
+140,1061,East,Electronics,Phone,140.0,2,5.0,133.0,Cash,2.0,True,2023-10-31
+141,1073,East,Furniture,Chair,334.0,8,0.0,334.0,Cash,,False,2023-11-27
+142,1080,North,Electronics,Phone,74.0,6,10.0,66.6,Cash,1.0,False,2023-06-16
+143,1084,North,Electronics,Laptop,99.0,1,15.0,84.15,Cash,3.0,True,2023-01-13
+144,1069,East,Electronics,Phone,338.0,4,5.0,321.1,Net Banking,,False,2023-01-01
+145,1045,East,Electronics,Laptop,275.0,6,15.0,233.75,UPI,,True,2023-01-26
+146,1022,West,Furniture,Chair,316.0,4,15.0,268.6,Card,3.0,True,2023-01-01
+147,1093,East,Clothing,Jeans,488.0,8,5.0,463.6,Net Banking,4.0,True,2023-06-23
+148,1070,South,Furniture,Table,198.0,7,0.0,198.0,UPI,1.0,False,2023-03-19
+149,1014,West,Electronics,Tablet,193.0,1,15.0,164.05,Net Banking,5.0,True,2023-12-03
+150,1038,West,Clothing,Jacket,216.0,5,15.0,183.6,UPI,,True,2023-09-12
+151,1089,West,Clothing,Jacket,286.0,3,10.0,257.4,Net Banking,,False,2023-02-02
+152,1070,South,Electronics,Laptop,423.0,10,5.0,401.85,Card,4.0,False,2023-03-30
+153,1010,West,Furniture,Sofa,435.0,5,,,Card,2.0,True,2023-12-20
+154,1095,South,Furniture,Chair,304.0,7,15.0,258.4,Net Banking,,True,2023-07-23
+155,1026,North,Clothing,Shirt,211.0,10,,,Net Banking,3.0,False,2023-11-03
+156,1031,North,Clothing,Jeans,457.0,8,15.0,388.45,UPI,1.0,False,2023-09-03
+157,1076,West,Electronics,Laptop,182.0,7,,,Cash,3.0,True,2023-01-26
+158,1028,South,Furniture,Chair,258.0,7,,,Cash,5.0,True,2023-12-25
+159,1059,West,Clothing,Jeans,179.0,9,15.0,152.15,Cash,,True,2023-01-15
+160,1002,East,Electronics,Laptop,302.0,7,15.0,256.7,UPI,5.0,True,2023-03-11
+161,1089,North,Furniture,Table,191.0,7,10.0,171.9,Net Banking,4.0,True,2023-09-01
+162,1046,West,Electronics,Laptop,420.0,6,5.0,399.0,Card,4.0,True,2023-08-19
+163,1080,North,Electronics,Tablet,89.0,9,,,UPI,,True,2023-08-06
+164,1053,North,Electronics,Phone,476.0,4,10.0,428.4,Cash,5.0,False,2023-08-06
+165,1057,West,Clothing,Jeans,,6,5.0,,Net Banking,3.0,False,2023-10-20
+166,1034,West,Electronics,Laptop,84.0,6,10.0,75.6,Cash,5.0,False,2023-02-16
+167,1036,East,Clothing,Shirt,,3,,,Card,4.0,True,2023-12-05
+168,1062,North,Furniture,Sofa,112.0,6,,,UPI,5.0,True,2023-11-21
+169,1092,West,Clothing,Jacket,,5,5.0,,Card,5.0,True,2023-05-24
+170,1001,West,Electronics,Laptop,158.0,8,15.0,134.3,Cash,2.0,False,2023-03-22
+171,1002,North,Electronics,Phone,,1,5.0,,Cash,1.0,True,2023-02-13
+172,1047,South,Clothing,Jacket,355.0,10,0.0,355.0,Cash,3.0,True,2023-03-12
+173,1023,South,Electronics,Phone,280.0,2,5.0,266.0,Net Banking,2.0,True,2023-02-17
+174,1082,South,Electronics,Tablet,,1,10.0,,UPI,,False,2023-10-16
+175,1094,South,Furniture,Chair,321.0,1,,,Card,3.0,False,2023-02-26
+176,1061,North,Clothing,Shirt,402.0,8,15.0,341.7,Cash,,False,2023-03-02
+177,1007,West,Clothing,Jeans,281.0,10,0.0,281.0,Cash,3.0,False,2023-06-02
+178,1026,West,Furniture,Table,214.0,3,15.0,181.9,UPI,,True,2023-03-18
+179,1077,West,Furniture,Table,470.0,2,10.0,423.0,Net Banking,,False,2023-12-25
+180,1083,East,Clothing,Jacket,98.0,4,,,Cash,1.0,False,2023-04-22
+181,1079,West,Electronics,Phone,241.0,5,10.0,216.9,Card,4.0,False,2023-01-30
+182,1033,North,Clothing,Jeans,424.0,8,15.0,360.4,Card,2.0,True,2023-08-21
+183,1044,North,Electronics,Phone,365.0,9,15.0,310.25,Cash,1.0,True,2023-11-01
+184,1072,North,Electronics,Laptop,57.0,7,15.0,48.45,Cash,3.0,True,2023-01-21
+185,1036,West,Clothing,Jacket,439.0,1,,,Cash,,False,2023-06-24
+186,1096,North,Clothing,Shirt,190.0,8,10.0,171.0,UPI,5.0,True,2023-07-27
+187,1062,North,Clothing,Jacket,98.0,3,10.0,88.2,Cash,5.0,False,2023-01-28
+188,1095,South,Furniture,Chair,331.0,2,,,Card,5.0,True,2023-06-05
+189,1097,South,Clothing,Jeans,125.0,2,,,Cash,4.0,False,2023-07-28
+190,1074,West,Clothing,Jacket,91.0,5,15.0,77.35,UPI,1.0,False,2023-10-19
+191,1029,North,Clothing,Shirt,259.0,5,15.0,220.15,Net Banking,3.0,False,2023-05-21
+192,1045,South,Electronics,Tablet,426.0,5,10.0,383.4,Card,1.0,False,2023-02-22
+193,1060,South,Furniture,Sofa,122.0,10,0.0,122.0,Cash,3.0,True,2023-07-13
+194,1000,North,Furniture,Table,183.0,7,0.0,183.0,Net Banking,4.0,False,2023-01-12
+195,1013,South,Electronics,Tablet,337.0,1,,,UPI,5.0,True,2023-08-11
+196,1054,West,Clothing,Shirt,328.0,1,15.0,278.8,Net Banking,4.0,False,2023-02-17
+197,1055,East,Electronics,Phone,146.0,2,15.0,124.1,Net Banking,4.0,True,2023-01-29
+198,1045,East,Furniture,Table,215.0,4,0.0,215.0,Card,2.0,True,2023-04-04
+199,1076,South,Furniture,Chair,383.0,4,10.0,344.7,UPI,4.0,True,2023-01-17
+200,1054,East,Furniture,Chair,286.0,4,15.0,243.1,UPI,4.0,True,2023-02-25
+201,1003,West,Electronics,Laptop,318.0,6,10.0,286.2,Card,5.0,False,2023-06-14
+202,1045,West,Furniture,Sofa,,2,,,Card,4.0,True,2023-04-28
+203,1024,North,Clothing,Jacket,345.0,2,,,Cash,,True,2023-09-27
+204,1063,South,Electronics,Laptop,76.0,5,15.0,64.6,UPI,5.0,True,2023-05-14
+205,1013,West,Furniture,Sofa,260.0,5,5.0,247.0,Card,4.0,False,2023-09-26
+206,1054,West,Electronics,Laptop,159.0,4,,,Net Banking,1.0,True,2023-03-25
+207,1091,West,Clothing,Jacket,437.0,2,10.0,393.3,Net Banking,4.0,False,2023-04-28
+208,1002,East,Clothing,Jeans,119.0,9,0.0,119.0,Net Banking,3.0,False,2023-09-23
+209,1044,North,Electronics,Laptop,380.0,10,,,Cash,4.0,True,2023-12-10
+210,1001,East,Electronics,Tablet,206.0,4,0.0,206.0,Net Banking,5.0,False,2023-07-18
+211,1074,North,Furniture,Sofa,129.0,8,,,UPI,2.0,False,2023-05-06
+212,1099,East,Furniture,Chair,212.0,2,10.0,190.8,Cash,1.0,False,2023-06-14
+213,1100,North,Furniture,Sofa,219.0,1,5.0,208.05,UPI,3.0,False,2023-06-01
+214,1084,East,Clothing,Jeans,111.0,6,10.0,99.9,Card,,True,2023-07-20
+215,1050,North,Furniture,Chair,482.0,1,5.0,457.9,Cash,3.0,True,2023-06-20
+216,1098,South,Electronics,Laptop,185.0,1,0.0,185.0,Net Banking,,False,2023-10-18
+217,1052,South,Electronics,Laptop,81.0,9,,,Net Banking,5.0,False,2023-04-07
+218,1045,North,Furniture,Sofa,444.0,7,15.0,377.4,Cash,5.0,False,2023-08-10
+219,1062,West,Furniture,Chair,411.0,10,5.0,390.45,Cash,1.0,False,2023-03-19
+220,1018,East,Clothing,Jacket,89.0,8,10.0,80.1,Card,,False,2023-07-23
+221,1049,West,Clothing,Jeans,456.0,1,5.0,433.2,Cash,3.0,False,2023-06-11
+222,1003,South,Electronics,Laptop,150.0,10,15.0,127.5,UPI,4.0,True,2023-09-19
+223,1033,South,Clothing,Jacket,167.0,3,0.0,167.0,Net Banking,5.0,True,2023-01-17
+224,1012,West,Electronics,Phone,308.0,10,,,Cash,,True,2023-09-09
+225,1000,South,Furniture,Table,267.0,2,15.0,226.95,Net Banking,4.0,True,2023-03-07
+226,1050,North,Furniture,Chair,413.0,2,15.0,351.05,UPI,,True,2023-05-27
+227,1012,South,Clothing,Jeans,275.0,8,0.0,275.0,Card,2.0,False,2023-10-13
+228,1032,West,Clothing,Jacket,,10,15.0,,UPI,4.0,False,2023-04-18
+229,1020,East,Clothing,Shirt,136.0,1,,,Card,1.0,True,2023-01-10
+230,1020,East,Clothing,Jeans,383.0,3,0.0,383.0,UPI,4.0,False,2023-01-30
+231,1075,North,Clothing,Jeans,311.0,3,5.0,295.45,UPI,,True,2023-01-04
+232,1050,West,Electronics,Laptop,391.0,4,15.0,332.35,UPI,1.0,False,2023-09-14
+233,1058,North,Furniture,Chair,63.0,5,0.0,63.0,Net Banking,3.0,False,2023-11-06
+234,1079,North,Furniture,Sofa,132.0,10,10.0,118.8,Card,,True,2023-01-06
+235,1034,West,Electronics,Phone,283.0,2,,,Net Banking,1.0,False,2023-03-29
+236,1027,East,Furniture,Sofa,400.0,1,10.0,360.0,UPI,2.0,True,2023-08-03
+237,1077,East,Electronics,Laptop,54.0,1,,,Card,4.0,True,2023-06-25
+238,1017,East,Clothing,Shirt,264.0,2,0.0,264.0,Cash,,False,2023-08-18
+239,1079,East,Electronics,Phone,59.0,5,,,UPI,4.0,False,2023-02-24
+240,1022,East,Furniture,Sofa,91.0,3,0.0,91.0,Net Banking,2.0,False,2023-05-29
+241,1056,South,Clothing,Jeans,426.0,5,0.0,426.0,Net Banking,5.0,False,2023-01-26
+242,1042,West,Clothing,Jacket,,7,0.0,,UPI,5.0,False,2023-10-17
+243,1075,North,Furniture,Table,54.0,2,15.0,45.9,Net Banking,4.0,False,2023-05-22
+244,1023,North,Electronics,Laptop,291.0,9,15.0,247.35,Cash,3.0,True,2023-05-24
+245,1000,West,Furniture,Table,469.0,7,,,Card,3.0,True,2023-08-31
+246,1044,North,Electronics,Laptop,434.0,4,10.0,390.6,Card,3.0,True,2023-04-06
+247,1086,West,Furniture,Table,210.0,4,0.0,210.0,Card,4.0,False,2023-03-03
+248,1079,North,Clothing,Jeans,475.0,6,15.0,403.75,Net Banking,,True,2023-10-13
+249,1034,North,Furniture,Sofa,390.0,6,,,UPI,1.0,True,2023-05-06
+250,1029,East,Electronics,Laptop,329.0,1,15.0,279.65,Cash,2.0,False,2023-03-05
+251,1014,North,Electronics,Tablet,247.0,4,10.0,222.3,Card,2.0,False,2023-06-28
+252,1018,South,Electronics,Phone,307.0,9,10.0,276.3,Cash,4.0,False,2023-04-03
+253,1001,East,Clothing,Jeans,102.0,3,,,Net Banking,,False,2023-10-11
+254,1007,East,Clothing,Shirt,491.0,1,,,Card,5.0,True,2023-11-24
+255,1065,South,Furniture,Chair,59.0,10,15.0,50.15,Cash,3.0,False,2023-12-28
+256,1050,North,Clothing,Jeans,493.0,4,10.0,443.7,Card,4.0,True,2023-09-07
+257,1008,North,Electronics,Tablet,,5,5.0,,Cash,,False,2023-02-17
+258,1075,East,Furniture,Sofa,186.0,1,15.0,158.1,Card,1.0,False,2023-11-03
+259,1054,West,Furniture,Chair,,6,15.0,,Cash,1.0,False,2023-01-12
+260,1014,North,Electronics,Phone,192.0,8,10.0,172.8,Card,4.0,False,2023-12-21
+261,1052,West,Furniture,Sofa,198.0,9,10.0,178.2,Card,5.0,True,2023-10-17
+262,1010,East,Furniture,Sofa,,8,5.0,,UPI,3.0,True,2023-02-07
+263,1097,South,Furniture,Sofa,92.0,2,10.0,82.8,Net Banking,2.0,True,2023-09-16
+264,1095,North,Furniture,Chair,78.0,4,0.0,78.0,Cash,,True,2023-08-06
+265,1013,North,Furniture,Sofa,420.0,6,5.0,399.0,Card,1.0,False,2023-04-03
+266,1078,South,Furniture,Table,462.0,6,0.0,462.0,Net Banking,,True,2023-09-22
+267,1055,South,Clothing,Jacket,,7,5.0,,UPI,3.0,False,2023-03-05
+268,1020,West,Electronics,Tablet,399.0,1,0.0,399.0,UPI,4.0,False,2023-07-24
+269,1017,South,Electronics,Tablet,170.0,10,0.0,170.0,Card,,True,2023-01-08
+270,1081,South,Electronics,Laptop,218.0,7,,,Cash,1.0,True,2023-01-27
+271,1033,East,Electronics,Tablet,195.0,2,0.0,195.0,UPI,1.0,True,2023-01-12
+272,1019,South,Clothing,Jeans,64.0,10,5.0,60.8,Net Banking,4.0,True,2023-03-14
+273,1002,East,Electronics,Tablet,314.0,7,,,Net Banking,5.0,True,2023-06-15
+274,1007,East,Clothing,Jeans,309.0,10,5.0,293.55,Net Banking,2.0,False,2023-12-03
+275,1008,North,Furniture,Table,67.0,4,,,Cash,,False,2023-11-09
+276,1090,West,Clothing,Shirt,78.0,4,,,Cash,5.0,False,2023-07-13
+277,1059,North,Clothing,Jacket,219.0,10,0.0,219.0,Card,4.0,False,2023-02-21
+278,1028,North,Clothing,Shirt,212.0,6,0.0,212.0,Cash,4.0,False,2023-08-21
+279,1079,West,Furniture,Sofa,307.0,1,5.0,291.65,Cash,5.0,True,2023-06-25
+280,1015,North,Electronics,Phone,108.0,1,5.0,102.6,UPI,2.0,True,2023-08-10
+281,1043,South,Furniture,Chair,330.0,2,0.0,330.0,Net Banking,3.0,True,2023-07-20
+282,1060,East,Clothing,Jeans,154.0,1,0.0,154.0,UPI,4.0,True,2023-05-16
+283,1049,South,Furniture,Chair,428.0,9,10.0,385.2,Net Banking,1.0,True,2023-09-06
+284,1042,East,Electronics,Phone,165.0,3,5.0,156.75,Cash,,False,2023-07-26
+285,1009,North,Furniture,Sofa,141.0,4,5.0,133.95,UPI,5.0,False,2023-11-16
+286,1089,North,Furniture,Table,288.0,6,,,Cash,1.0,False,2023-08-19
+287,1072,East,Furniture,Sofa,455.0,5,15.0,386.75,Card,5.0,True,2023-09-13
+288,1014,North,Clothing,Jeans,395.0,6,10.0,355.5,UPI,,False,2023-02-18
+289,1094,East,Clothing,Jacket,419.0,6,15.0,356.15,Net Banking,2.0,False,2023-09-01
+290,1020,East,Electronics,Phone,402.0,10,0.0,402.0,Cash,1.0,False,2023-10-19
+291,1005,West,Electronics,Laptop,394.0,2,15.0,334.9,Cash,,False,2023-02-24
+292,1038,West,Clothing,Shirt,356.0,3,0.0,356.0,Net Banking,3.0,False,2023-12-14
+293,1059,South,Furniture,Sofa,68.0,7,10.0,61.2,Cash,4.0,False,2023-04-08
+294,1010,East,Furniture,Chair,95.0,1,15.0,80.75,Net Banking,2.0,False,2023-10-31
+295,1078,South,Clothing,Jeans,350.0,4,0.0,350.0,Cash,2.0,True,2023-01-30
+296,1051,East,Electronics,Laptop,155.0,2,5.0,147.25,Cash,1.0,True,2023-10-03
+297,1099,East,Electronics,Phone,310.0,10,10.0,279.0,UPI,,True,2023-07-12
+298,1023,South,Furniture,Chair,343.0,1,,,Cash,5.0,False,2023-04-03
+299,1022,North,Furniture,Sofa,203.0,4,0.0,203.0,Net Banking,,True,2023-10-12
+300,1095,West,Furniture,Table,320.0,7,10.0,288.0,Card,4.0,True,2023-04-11
